@@ -1,9 +1,9 @@
 import ProfileCard from "./components/ProfileCard.jsx";
 import "./App.css";
 
-import profileImg1 from "assets/profile1.jpg";
-import profileImg2 from "assets/profile2.jpg";
-import profileImg3 from "assets/profile3.jpg";
+import profileImg1 from "./assets/profile1.jpg";
+import profileImg2 from "./assets/profile2.jpg";
+import profileImg3 from "./assets/profile3.jpg";
 
 function App() {
   return (
