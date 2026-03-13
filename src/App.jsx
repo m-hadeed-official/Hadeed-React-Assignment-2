@@ -1,6 +1,10 @@
 import ProfileCard from "./components/ProfileCard.jsx";
 import "./App.css";
 
+import profileImg1 from "assets/profile1.jpg";
+import profileImg2 from "assets/profile2.jpg";
+import profileImg3 from "assets/profile3.jpg";
+
 function App() {
   return (
     <div className="app">
@@ -10,19 +14,19 @@ function App() {
           name="Muhammad Hadeed"
           bio="lorem ipsum dolor sit amet"
           skillsList={["Html", "css", "JS"]}
-          img="src/assets/profile1.jpg"
+          img={profileImg1}
         />
         <ProfileCard
           name="Lian Win"
           bio="lorem ipsum dolor sit amet"
           skillsList={["ruby", "cloud Engeenering", "java"]}
-          img="src/assets/profile2.jpg"
+          img={profileImg2}
         />
         <ProfileCard
           name="John Duckett"
           bio="lorem ipsum dolor sit amet"
           skillsList={["C++", "python"]}
-          img="src/assets/profile3.jpg"
+          img={profileImg3}
         />
       </section>
     </div>
