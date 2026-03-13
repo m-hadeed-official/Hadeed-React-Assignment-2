@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.profile-cards-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 10px;
+  width: clamp(300px, 80%, 1440px);
+  margin: auto;
+  justify-items: center;
+  padding: 20px 0;
+}

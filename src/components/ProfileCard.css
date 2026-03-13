@@ -1,0 +1,66 @@
+.card-wrapper {
+  background-color: rgba(255, 255, 255, 0.923);
+  color: rgb(8, 20, 74);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 15px;
+  border: 3px solid rgb(8, 20, 74);
+  border-radius: 10px;
+  width: clamp(280px, 100%, 400px);
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.profile-img-sec {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 200px;
+  margin: auto;
+  height: 200px;
+}
+
+.intro-heading {
+  color: rgb(255, 68, 0);
+}
+.intro-heading {
+  color: rgb(255, 68, 0);
+}
+
+.skills-heading {
+  color: rgb(255, 68, 0);
+}
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.skills-list li {
+  background: white;
+  color: rgb(8, 20, 74);
+  border-bottom: 2px solid orangered;
+  border-left: 4px solid orangered;
+  font-weight: 500;
+  padding: 6px 9px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.skills-list li:hover {
+  border: none;
+  color: orangered;
+}
+
+.contact-btn {
+  padding: 10px 9px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 1.2rem;
+
+  border-radius: 10px;
+}
+.contact-btn:hover {
+  background-color: rgba(255, 68, 0, 0.279);
+  color: orangered;
+}
